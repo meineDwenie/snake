@@ -77,6 +77,10 @@ public class BoardScreen extends JPanel {
     /**
      *
      */
+    
+    /**
+     * 
+     */
     public void setUpPlayers() {
         players = new ArrayList<Player>();
         for (int i = 0; i < returnMaxPlayers(); i++) {
